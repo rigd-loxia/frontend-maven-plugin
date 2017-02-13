@@ -14,7 +14,7 @@ import org.sonatype.plexus.build.incremental.BuildContext;
 import java.io.File;
 import java.util.Collections;
 
-@Mojo(name="npm",  defaultPhase = LifecyclePhase.GENERATE_RESOURCES)
+@Mojo(name="npm",  defaultPhase = LifecyclePhase.GENERATE_RESOURCES, threadSafe = false)
 public final class NpmMojo extends AbstractFrontendMojo {
 
     private static final String NPM_REGISTRY_URL = "npmRegistryURL";

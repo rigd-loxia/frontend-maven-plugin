@@ -12,7 +12,7 @@ import java.io.File;
 import java.util.Arrays;
 import java.util.List;
 
-@Mojo(name="gulp", defaultPhase = LifecyclePhase.GENERATE_RESOURCES)
+@Mojo(name="gulp", defaultPhase = LifecyclePhase.GENERATE_RESOURCES, threadSafe = false)
 public final class GulpMojo extends AbstractFrontendMojo {
 
     /**

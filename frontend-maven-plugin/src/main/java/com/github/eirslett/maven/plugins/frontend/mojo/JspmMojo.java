@@ -11,7 +11,7 @@ import org.apache.maven.plugins.annotations.Parameter;
 
 import java.io.File;
 
-@Mojo(name="jspm",  defaultPhase = LifecyclePhase.GENERATE_RESOURCES)
+@Mojo(name="jspm",  defaultPhase = LifecyclePhase.GENERATE_RESOURCES, threadSafe = false)
 public class JspmMojo extends AbstractFrontendMojo {
 
     /**

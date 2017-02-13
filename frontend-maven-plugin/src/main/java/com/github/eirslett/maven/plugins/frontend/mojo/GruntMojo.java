@@ -12,7 +12,7 @@ import java.io.File;
 import java.util.Arrays;
 import java.util.List;
 
-@Mojo(name="grunt", defaultPhase = LifecyclePhase.GENERATE_RESOURCES)
+@Mojo(name="grunt", defaultPhase = LifecyclePhase.GENERATE_RESOURCES, threadSafe = false)
 public final class GruntMojo extends AbstractFrontendMojo {
 
     /**

@@ -7,9 +7,9 @@
         <version>7</version>
     </parent>
 
-    <groupId>com.github.eirslett</groupId>
+    <groupId>loxia</groupId>
     <artifactId>frontend-plugins</artifactId>
-    <version>1.4-SNAPSHOT</version>
+    <version>1.4</version>
     <packaging>pom</packaging>
 
     <properties>

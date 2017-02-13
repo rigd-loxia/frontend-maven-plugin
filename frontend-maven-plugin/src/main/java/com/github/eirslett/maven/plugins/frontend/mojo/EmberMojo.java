@@ -12,7 +12,7 @@ import java.io.File;
 import java.util.Arrays;
 import java.util.List;
 
-@Mojo(name="ember", defaultPhase = LifecyclePhase.GENERATE_RESOURCES)
+@Mojo(name="ember", defaultPhase = LifecyclePhase.GENERATE_RESOURCES, threadSafe = false)
 public final class EmberMojo extends AbstractFrontendMojo {
 
     /**

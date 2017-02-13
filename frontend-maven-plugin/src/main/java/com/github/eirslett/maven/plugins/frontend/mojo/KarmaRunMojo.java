@@ -8,7 +8,7 @@ import org.apache.maven.plugins.annotations.Parameter;
 import org.slf4j.LoggerFactory;
 
 
-@Mojo(name="karma",  defaultPhase = LifecyclePhase.TEST)
+@Mojo(name="karma",  defaultPhase = LifecyclePhase.TEST, threadSafe = false)
 public final class KarmaRunMojo extends AbstractFrontendMojo {
 
     /**

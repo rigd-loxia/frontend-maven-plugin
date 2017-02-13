@@ -3,8 +3,8 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>frontend-plugins</artifactId>
-        <groupId>com.github.eirslett</groupId>
-        <version>1.4-SNAPSHOT</version>
+        <groupId>loxia</groupId>
+        <version>1.4</version>
     </parent>
 
     <artifactId>frontend-maven-plugin</artifactId>
@@ -24,7 +24,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.github.eirslett</groupId>
+            <groupId>loxia</groupId>
             <artifactId>frontend-plugin-core</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
